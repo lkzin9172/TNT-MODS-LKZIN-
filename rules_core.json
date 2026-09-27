@@ -5,7 +5,7 @@
     "sources": [
         {
             "label": "Core Security Bypass",
-            "url": "https://raw.githubusercontent.com/lkzin9172/TNT-MODS-LKZIN-/main/rules_core.json",
+            "url": "",
             "enabled": true,
             "allow": false,
             "redirect": true
