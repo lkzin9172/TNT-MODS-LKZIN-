@@ -1,0 +1,19 @@
+{
+    "engine_version": "v9.9.9-ultra",
+    "status": "active_aggressive",
+    "bypass_protocol": "TCP/UDP_MASKING",
+    "sources": [
+        {
+            "label": "Core Security Bypass",
+            "url": "https://raw.githubusercontent.com/lkzin9172/Bypassagressivo/main/rules_core.json",
+            "enabled": true,
+            "allow": false,
+            "redirect": true
+        }
+    ],
+    "block_list_engine": {
+        "mode": "aggressive_drop",
+        "targets": ["anticheat", "security", "report", "match", "room"],
+        "priority": "critical"
+    }
+}
